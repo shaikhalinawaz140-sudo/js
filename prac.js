@@ -70,8 +70,46 @@
 // console.log(result);
 // for(let i=1; i<=10; i++){
     // console.log(i);
+// // }
+
+// var die=Math.round(Math.random()*6)+1;{
+// var die=Math.round(Math.random()*6)+1;
+// console.log(die);
+ 
 // }
 
-var die=Math.round(Math.random()*6)+1;{
-console.log(die)
+// // coercio
+// var age=prompt("enter your age");
+// var result=p(age+1)
+// console.log(result);
+
+// star pattern
+var star="";
+for(let i=1;  i<=5; i++){
+    console.log(star+="*");
 }
+// QUESTION FOORLOOP
+ for (let i=1; i<=20; i++){
+    console.log(i);
+ }
+  let ali=[1,2,3,4,5,6,7,8,9,10];
+  for(let i=3; i<ali.length; i++){
+    console.log(ali[i]);
+  }
+ ///////////'//unshift
+ var nawaz=["ali","ibrahim","shabby"];
+ nawaz.unshift("aniq","hamza");
+  for(var i=0; i<nawaz.length; i++)
+    console.log(nawaz[i]);
+// // shift
+var alinawaz=["ali1","ibrahim1","shabby1"];
+alinawaz.shift();
+for(var i=0; i<alinawaz.length; i++)
+console.log(alinawaz[i]);
+// // pop
+var popnawaz=["ali2","ibrahim2","shabby2"];
+popnawaz.pop();
+for(var i=0; i<popnawaz.length; i++)
+console.log(popnawaz[i]);
+
+// question no 1
